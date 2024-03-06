@@ -1,0 +1,9 @@
+@import '../../styles/variables.scss';
+.navbar{
+    position: sticky;
+    top:0px;
+    background-color: $Black;
+    color: $White;
+    border-bottom:1px solid $White;
+    width: 100%;
+}

@@ -1,0 +1,50 @@
+@import "../../styles/variables.scss";
+
+.signupContainer {
+  width: 30rem;
+  color: $White;
+  text-align: center;
+  input {
+    width: 18rem;
+    border: 1px solid $White;
+    color: $White;
+    background: $Black;
+    margin: 20px 0px;
+    height: 3.2rem;
+    padding: 8px 16px;
+    transition: all 0.3s ease;
+    &::placeholder {
+      color: rgb(164, 156, 156);
+    }
+    &:focus {
+      outline: none;
+      box-shadow: 4px 4px rgb(5, 5, 5), 5px 5px rgb(255, 255, 255);
+    }
+  }
+  .submitBtn {
+    width: 18rem;
+    color: $Black;
+    background: $White;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    height: 3.2rem;
+    transition: all 0.3s ease-in-out;
+    &:disabled {
+      background: rgb(164, 156, 156);
+      cursor: not-allowed;
+      color: rgb(5, 5, 5);
+      border: 1px solid rgb(164, 156, 156);
+    }
+    &:disabled:hover {
+      background: rgb(164, 156, 156);
+      color: rgb(5, 5, 5);
+      border: 1px solid rgb(164, 156, 156);
+    }
+    &:hover {
+      background: $Black;
+      color: $White;
+      border: 1px solid $White;
+    }
+  }
+}

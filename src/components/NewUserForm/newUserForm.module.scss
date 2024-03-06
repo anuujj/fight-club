@@ -1,0 +1,31 @@
+@import '../../styles/variables.scss';
+.password {
+    position: relative;
+    .showPasswordBtn {
+      position: absolute;
+      right: 0;
+      height: 3rem;
+      width: 3.5rem;
+      text-align: right;
+      color: rgb(164, 156, 156);
+      border-left: 1px solid $White;
+      background: $Black;
+      margin: 22px 10px;
+      padding: 8px;
+      &:hover {
+        color: $White;
+      }
+    }
+    input{
+        padding-right: 4.5rem;
+    }
+  }
+  .username{
+    position: relative;
+    .validStatus{
+      position: absolute;
+      right: 1rem;
+      top: 2.2rem;
+      background: $Black;
+    }
+  }

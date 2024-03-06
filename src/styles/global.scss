@@ -1,0 +1,26 @@
+:global {
+    .df{
+      display: flex;
+    }
+    .fd_c{
+        flex-direction: column;
+    }
+    .fd_r{
+        flex-direction: row;
+    }
+    .ai_c{
+        align-items: center;
+    }
+    .jc_sb{
+        justify-content: space-between;
+    }
+    .jc_c{
+        justify-content: center;
+    }
+    .mt-12{
+        margin-top: 12px;
+    }
+    .mt-24{
+        margin-top: 24px;
+    }
+  }
