@@ -1,5 +1,5 @@
 import { useCallback, useState } from "react";
-import styles from "./NewUserForm.module.scss";
+import styles from "./newUserForm.module.scss";
 import checkUsername from "../../services/api/checkUsername";
 import { debounce } from "../../utils";
 import signup from "../../services/api/signup";
