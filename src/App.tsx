@@ -2,7 +2,7 @@ import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import "./index.scss";
 import { Suspense } from "react";
 import Home from "./pages/Home/Home";
-import HtmlProb from "./pages/Problems/HtmlProb";
+import HtmlProb from "./pages/Problem/HtmlProb";
 import Login from "./pages/Login/Login";
 import Auth from "./pages/Auth/Auth";
 import Signup from "./pages/Signup/Signup";
